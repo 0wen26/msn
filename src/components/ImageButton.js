@@ -26,7 +26,7 @@ class ImageButton extends HTMLElement {
     }
 
     connectedCallback() {
-        this.image = "toolbar/" + this.getAttribute("image") + ".png";
+        this.image = "/public/toolbar/" + this.getAttribute("image") + ".png";
         this.text = this.getAttribute("text") ?? "Sin texto";
         this.bind = this.getAttribute("bind");
         this.label = this.text.replace(this.bind, `<span>${this.bind}</span>`)
