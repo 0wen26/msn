@@ -1,0 +1,9 @@
+body {
+    background: #d5d5f3;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+}
