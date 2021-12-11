@@ -38,7 +38,7 @@ class ImageButton extends HTMLElement {
    <style>${ImageButton.styles}</style>
    <div class="container">
     <img src="${this.image}" alt="">
-    <div class="text">${this.label}</div>
+    <div class="text">${this.label}</div>Hola
    </div>
    `;
     }
